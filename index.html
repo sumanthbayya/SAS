@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+	  <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="cXZYVnVqV2c.LhU4WBAWJSYTNScwMhwzFCcrCSoLPAoYDmluHjg4Kw==">
+   <title>CampusXRoads</title>
+   <link href="assets/aff50a41/css/bootstrap.css" rel="stylesheet">
+<link href="css/site.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+<link href="assets/9c7cf442/authchoice.css" rel="stylesheet"></head>
+
+<body>
+<!-- NAVBAR ================================================== -->
+	
+    <nav class="navbar navbar-default navbar-fixed-top custom_navbar navbar-wrapper">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="/campusxroads/"><img src="img/logo.png" class="img-responsive" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="/campusxroads/">Home</a></li>
+                <li><a href="/campusxroads/user/tutor">Become Tutor</a></li>
+              
+                <li><a href="javascript:;" data-toggle="modal" data-target="#loginModal">Login</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+	
+	<!-- NAVBAR ================================================== -->
+	
+      
+       
+	<!-- Carousel ================================================== -->
+    <div id="myCarousel" class="carousel slide carousel-custom" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="img/banner1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="col-md-7">
+				<div class="slider-title"><span>celebrate</span> <br />Your <span>Success</span></div>
+				</div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="img/banner2.jpg" alt="Second slide">
+           <div class="container">
+            <div class="carousel-caption">
+				<div class="col-md-7">
+					<div class="slider-title"><span>celebrate</span> <br />Your <span>Success</span></div>
+				</div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="img/banner3.jpg" alt="Third slide">
+           <div class="container">
+            <div class="carousel-caption">
+				<div class="col-md-7">
+					<div class="slider-title"><span>celebrate</span> <br />Your <span>Success</span></div>
+				</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+	<!-- Carousel END ================================================== -->
+
+	<div class="user-create">
+
+    <h1></h1>
+
+    
+
+
+<!-- Signup Title Here ================================================== -->
+	<div ID="signup_title_block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 signup_title"><span>Sign-up</span> today to join over 5 million learners</div>
+				<div class="col-md-4 padding-left-none">
+					<div class="form">
+						<div class="head">Student Signup</div>
+						<form id="w0" action="/campusxroads/" method="post">
+<input type="hidden" name="_csrf" value="cXZYVnVqV2c.LhU4WBAWJSYTNScwMhwzFCcrCSoLPAoYDmluHjg4Kw==">							<div class="modal fade" id="myModal" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title">Modal Header</h4>
+										</div>
+										<div class="modal-body">
+											<p><div class="error-summary" style="display:none"><p>Please fix the following errors:</p><ul></ul></div></p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						
+							<div class="form_fields">
+								<div class="reg-custom"><div class="error-summary" style="display:none"><p>Please fix the following errors:</p><ul></ul></div></div>
+								<div class="row">
+									<div class="col-md-6">
+										<div>
+											<label>First Name</label>
+											<div class="input-group">
+												<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+												<div class="form-group field-signupform-firstname required">
+
+<input type="text" id="signupform-firstname" class="form-control" name="SignupForm[firstName]">
+
+</div>											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div>
+											<label>Last Name</label>
+											<div class="input-group">
+												<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+												<div class="form-group field-signupform-lastname required">
+
+<input type="text" id="signupform-lastname" class="form-control" name="SignupForm[lastName]">
+
+</div>											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div>
+									<label>Email ID</label>
+									<div class="input-group">
+										<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+										<div class="form-group field-signupform-email required">
+
+<input type="text" id="signupform-email" class="form-control" name="SignupForm[email]" maxlength="255">
+
+</div>									</div>
+								</div>
+							
+								<div>
+									<label>Phone Number</label>
+									<div class="input-group">
+										<span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+										<div class="form-group field-signupform-phonenum required">
+
+<input type="text" id="signupform-phonenum" class="form-control" name="SignupForm[phoneNum]" maxlength="10">
+
+</div>								
+									</div>
+								</div>
+								
+								<div class="row">
+									<div class="col-md-12">
+										<label>Password</label>
+										<div class="input-group">
+											<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+											<div class="form-group field-signupform-password required">
+
+<input type="password" id="signupform-password" class="form-control" name="SignupForm[password]">
+
+</div>										</div>
+									</div>
+									<div class="col-md-12">
+										<label>Re-enter Password</label>
+										<div class="input-group">
+											<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+											<div class="form-group field-signupform-confirmpassword required">
+
+<input type="password" id="signupform-confirmpassword" class="form-control" name="SignupForm[confirmPassword]">
+
+</div>									
+										</div>
+									</div>
+								</div>
+								
+								<!--<div>
+									<label>User Type</label>
+									<div class="input-group">
+										<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+										
+										<div class="form-group field-signupform-usertype">
+
+<select id="signupform-usertype" class="form-control" name="SignupForm[usertype]">
+<option value="1">Student</option>
+<option value="2">Tutor</option>
+</select>
+
+</div>									
+									</div>
+								</div>-->
+								
+								<input type="submit" value="Sign Up" class="form-control signup-btn"  />
+							</div>			
+							</form>						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="modal fade" id="myModalnew" role="dialog">
+		<div class="modal-dialog">
+		<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Registration success</h4>
+				</div>
+				<div class="modal-body">
+					<p>You are registered successfully. Sent activation link to your email. <br /></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Signup Title Here End ================================================== -->
+	
+	
+</div>
+<!-- Assessments Block ====================================================== 
+<div id="assistments_block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-sm-8">
+					<div class="assist_block_title">
+						<h1>Assessments</h1>
+						<p>We Provide A Variety Of Assesments Check Out The Ability Now</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4">
+<!-- 					<a href="" class="view_all pull-right">View All</a> 
+				</div>
+			</div>
+			
+			<div class="row da-thumbs add_padding" id="da-thumbs">
+					
+					<div id="w1" class="list-view"><div data-key="56">
+
+<div class="col-md-3 col-sm-3 list_li">
+						<a href="#">
+							<img src="/campusxroads/backend/web/uploads/courseimages/Web Development.png" class="img-responsive" />
+							<div class="hover_title">
+								<h2>PHP</h2>
+								<p class="cost">$0</p>
+								<p class="take_text_btn">Take A Test</p>
+							</div>
+						</a>
+					</div></div>
+<div data-key="57">
+
+<div class="col-md-3 col-sm-3 list_li">
+						<a href="#">
+							<img src="/campusxroads/backend/web/uploads/courseimages/Web Development.png" class="img-responsive" />
+							<div class="hover_title">
+								<h2>PHP Arrays</h2>
+								<p class="cost">$0</p>
+								<p class="take_text_btn">Take A Test</p>
+							</div>
+						</a>
+					</div></div></div>  
+			</div>
+			
+
+		</div>
+	</div>-->
+	<!-- Assessments Block End ================================================== -->
+	
+	
+	<!-- training Block ====================================================== 
+	<div id="training_block">
+		<div class="container">
+		
+			<div class="row">
+				<div class="col-md-10 col-sm-8">
+					<div class="train_block_title">
+						<h1>training courses</h1>
+						<p>We Provide A Variety Of Courses Check Out The Couses Now</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4">
+					<a href="/campusxroads/coaching/coaching" class="view_all pull-right">View All</a>
+				</div>
+			</div>
+			
+			<div class="row">
+			<div id="w2" class="list-view"><div class="empty">No results found.</div></div>   
+			</div>
+		</div>
+	</div>-->
+	<!-- training Block End ================================================== -->
+	
+	<!-- Notification Block ====================================================== -->
+	<div id="notification_block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1 notification_title_block">
+					<h1>Notifications</h1>
+					
+				</div>
+			</div>
+			<div class="row count_block">
+				<div class="col-sm-2 col-xs-6 count_time_block">
+					<span class="count">3</span>+<br /> Courses
+				</div> 
+				<div class="col-sm-2 col-xs-6 count_time_block">
+					<span class="count">6</span>+<br /> Members
+				</div> 
+				<div class="col-sm-2 col-xs-6 count_time_block">
+					<span class="count">2</span>+<br /> Assessment
+				</div> 
+				<div class="col-sm-2 col-xs-6 count_time_block">
+					<span class="count">2</span>+<br /> Total Tutors
+				</div> 
+				<div class="col-sm-2 col-xs-6 count_time_block">
+					<span class="count">0</span>+<br /> Training
+				</div> 
+				<div class="col-sm-2 col-xs-6 count_time_block">
+					<span class="count">0</span>+<br /> Learners
+				</div>  
+			</div>
+		</div>
+	</div>
+	<!-- Notification Block End ================================================== -->
+	
+	
+	
+	
+	<!-- Subscribe Block ====================================================== -->
+	<div id="subscribe_block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<span>Subscribe To Get The Latest News & Updates</span>
+				</div>
+				<div class="col-md-4">
+					<form action="" method="post" class="validate" target="_blank">
+						<div class="input-group">
+							<input type="email" value="" placeholder="Subscribe Here" name="EMAIL" class="form-control" id="mce-EMAIL">
+							<span class="input-group-btn">
+							<input type="submit" class="button btn btn-default" value="Go" name="subscribe" id="mc-embedded-subscribe">
+							</span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Subscribe Block End ================================================== -->	
+    <!-- Footer Links Block ====================================================== -->
+	<div id="footetr_links_block">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>About Us</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+				</div>
+				<div class="col-sm-4">
+					<h3>Quick Links</h3>
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<ul>
+								<li><a href="/campusxroads/staticpages/static/view?id=1">About US</a></li>
+									<li><a href="/campusxroads/staticpages/static/view?id=2">Sample Page</a></li>
+								<li><a href="#">Big Data</a></li>
+								<li><a href="#">C# Programming</a></li>
+								<li><a href="#">Cloud computing</a></li>
+								<li><a href="#">Project Management</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<ul>
+								<li><a href="#">Java</a></li>
+								<li><a href="#">Android</a></li>
+								<li><a href="#">Big Data</a></li>
+								<li><a href="#">C# Programming</a></li>
+								<li><a href="#">Cloud computing</a></li>
+								<li><a href="#">Project Management</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<h3>Latest Courses</h3>
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<ul>
+								<li><a href="#">Java</a></li>
+								<li><a href="#">Android</a></li>
+								<li><a href="#">Big Data</a></li>
+								<li><a href="#">C# Programming</a></li>
+								<li><a href="#">Cloud computing</a></li>
+								<li><a href="#">Project Management</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<ul>
+								<li><a href="#">Java</a></li>
+								<li><a href="#">Android</a></li>
+								<li><a href="#">Big Data</a></li>
+								<li><a href="#">C# Programming</a></li>
+								<li><a href="#">Cloud computing</a></li>
+								<li><a href="#">Project Management</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer Links Block End ================================================== -->
+	
+	
+	<!-- Footer ====================================================== -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 copyrights">Copyrights 2015 Campus X Roads.</div>
+				<div class="col-md-4 social_links">
+					<div class="pull-right">
+					<a href=""><i class="fa fa-facebook-square"></i></a>
+					<a href=""><i class="fa fa-twitter-square"></i></a>
+					<a href=""><i class="fa fa-google-plus-square"></i></a>
+					<a href=""><i class="fa fa-linkedin-square"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+		<div class="modal-dialog custom-modal-dialog">
+	    	<div class="modal-content login-modal">
+	      		<div class="modal-header login-modal-header">
+	        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        		<h4 class="modal-title text-center" id="loginModalLabel">LOGIN</h4>
+	      		</div>
+	      		<div class="modal-body">
+	      			<div class="text-center">
+		      			<div role="tabpanel" class="login-tab">
+						  	<!-- Nav tabs -->
+						  	<ul class="nav nav-tabs custom-nav-tabs" role="tablist">
+						    	<li role="presentation" class="active"><a id="signin-taba" href="#home" aria-controls="home" role="tab" data-toggle="tab">Login</a></li>
+						    	<li role="presentation"><a id="forgetpass-taba" href="#forget_password" aria-controls="forget_password" role="tab" data-toggle="tab">Forget Password</a></li>
+						  	</ul>
+							<!-- Tab panes -->
+						 	<div class="tab-content">
+						    	<div role="tabpanel" class="tab-pane active text-center" id="home">
+						    		&nbsp;&nbsp;
+						    		<span id="login_fail" class="response_error" style="display:none;">Loggin failed, please try again.</span>
+						    		<div class="clearfix"></div>
+						    		<p>With your social media account</p>
+<form id="login-form" action="/campusxroads/site/login" method="post" role="form">
+<input type="hidden" name="_csrf" value="cXZYVnVqV2c.LhU4WBAWJSYTNScwMhwzFCcrCSoLPAoYDmluHjg4Kw=="><div id="w3" class="auth-clients">
+<ul class="auth-clients clear"><li class="auth-client"><a class="auth-link google" href="/campusxroads/site/auth?authclient=google"><span class="auth-icon google"></span></a></li><li class="auth-client"><a class="auth-link facebook" href="/campusxroads/site/auth?authclient=facebook" data-popup-width="860" data-popup-height="480"><span class="auth-icon facebook"></span></a></li><li class="auth-client"><a class="auth-link linkedin" href="/campusxroads/site/auth?authclient=linkedin"><span class="auth-icon linkedin"></span></a></li></ul></div><div class="form-group">
+	<div class="error-summary" style="display:none"><p>Please fix the following errors:</p><ul></ul></div>		<div class="input-group">
+		<div class="input-group-addon">
+			<i class="fa fa-user"></i>
+		</div>
+			<div class="form-group field-loginform-username required">
+
+<input type="text" id="loginform-username" class="form-control" name="LoginForm[username]" placeholder="Username">
+
+</div>		</div>
+	<span class="help-block has-error" id="email-error"></span>
+</div>
+<div class="form-group">
+	<div class="input-group">
+		<div class="input-group-addon">
+			<i class="fa fa-lock"></i>
+		</div>
+		<div class="form-group field-loginform-password required">
+
+<input type="password" id="loginform-password" class="form-control" name="LoginForm[password]" placeholder="Password">
+
+</div>		</div>
+	<span class="help-block has-error" id="password-error"></span>
+</div>
+<button type="submit" id="login_btn" class="btn btn-block bt-login" name="login-button" data-loading-text="Signing In....">Login</button><div class="clearfix"></div>
+</form>						    	</div>
+						    	<div role="tabpanel" class="tab-pane text-center" id="forget_password">
+						    		&nbsp;&nbsp;
+						    	    <span id="reset_fail" class="response_error" style="display:none;"></span>
+						    		<div class="clearfix"></div>
+						    			<p>A link will send to your email to reset your password.</p>
+	<form id="request-password-reset-form" action="/campusxroads/site/request-password-reset" method="post" role="form">
+<input type="hidden" name="_csrf" value="cXZYVnVqV2c.LhU4WBAWJSYTNScwMhwzFCcrCSoLPAoYDmluHjg4Kw==">		<div class="form-group">
+			<div class="error-summary" style="display:none"><p>Please fix the following errors:</p><ul></ul></div>			<div class="input-group">
+				<div class="input-group-addon">
+					<i class="fa fa-at"></i>
+				</div>
+				<div class="form-group field-passwordresetrequestform-email required">
+
+<input type="text" id="passwordresetrequestform-email" class="form-control" name="PasswordResetRequestForm[email]" placeholder="Enter Your Registered Email">
+
+</div>			</div>
+			<span class="help-block has-error" id="femail-error"></span>
+		</div>
+		<button type="submit" id="reset_btn" class="btn btn-block bt-login" data-loading-text="Forget Password">Send</button>		<div class="clearfix"></div>
+	</form>						    	</div>
+						  	</div>
+						</div>
+	      			</div>
+	      		</div>
+			</div>
+	   </div>
+ 	</div>
+	<!-- Footer End ================================================== -->
+<script src="assets/53ab7e6f/jquery.js"></script>
+<script src="assets/db9fd425/yii.js"></script>
+<script src="assets/db9fd425/yii.validation.js"></script>
+<script src="assets/db9fd425/yii.activeForm.js"></script>
+<script src="js/modernizr.custom.97074.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.hoverdir.js"></script>
+<script src="js/jQuery.scrollSpeed.js"></script>
+<script src="js/jquery.flexisel.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/script.js"></script>
+<script src="js/jquery.countdown.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/carouseller.min.js"></script>
+<script src="js/html5gallery.js"></script>
+<script src="assets/9c7cf442/authchoice.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery('#w0').yiiActiveForm([{"id":"signupform-firstname","name":"firstName","container":".field-signupform-firstname","input":"#signupform-firstname","validate":function (attribute, value, messages, deferred, $form) {value = yii.validation.trim($form, attribute, []);yii.validation.required(value, messages, {"message":"First Name cannot be blank."});}},{"id":"signupform-lastname","name":"lastName","container":".field-signupform-lastname","input":"#signupform-lastname","validate":function (attribute, value, messages, deferred, $form) {value = yii.validation.trim($form, attribute, []);yii.validation.required(value, messages, {"message":"Last Name cannot be blank."});}},{"id":"signupform-email","name":"email","container":".field-signupform-email","input":"#signupform-email","validate":function (attribute, value, messages, deferred, $form) {value = yii.validation.trim($form, attribute, []);yii.validation.required(value, messages, {"message":"Email cannot be blank."});yii.validation.email(value, messages, {"pattern":/^[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$/,"fullPattern":/^[^@]*<[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?>$/,"allowName":false,"message":"Email is not a valid email address.","enableIDN":false,"skipOnEmpty":1});yii.validation.string(value, messages, {"message":"Email must be a string.","max":255,"tooLong":"Email should contain at most 255 characters.","skipOnEmpty":1});}},{"id":"signupform-phonenum","name":"phoneNum","container":".field-signupform-phonenum","input":"#signupform-phonenum","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Phone Number cannot be blank."});yii.validation.number(value, messages, {"pattern":/^\s*[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*$/,"message":"Phone Number must be a number.","min":10,"tooSmall":"Phone Number must be no less than 10.","skipOnEmpty":1});}},{"id":"signupform-password","name":"password","container":".field-signupform-password","input":"#signupform-password","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Password cannot be blank."});yii.validation.string(value, messages, {"message":"Password must be a string.","min":6,"tooShort":"Password should contain at least 6 characters.","skipOnEmpty":1});}},{"id":"signupform-confirmpassword","name":"confirmPassword","container":".field-signupform-confirmpassword","input":"#signupform-confirmpassword","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Confirm Password cannot be blank."});yii.validation.compare(value, messages, {"operator":"==","type":"string","compareAttribute":"signupform-password","skipOnEmpty":1,"message":"Confirm Password must be repeated exactly."});}}], []);
+
+		
+		$('body').on('click', '.signup-btn', function () {
+		var form = $('#w0');
+        if(form.find('.has-error')) {
+        //$('#myModal').modal();
+		
+        }
+      });
+		function getParameterByName(name) {
+    name = name.replace(/[\[]/, '\[').replace(/[\]]/, '\]');
+    var regex = new RegExp('[\?&]' + name + '=([^&#]*)'),
+        results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ''));
+}
+		var reg = getParameterByName('success');
+		if(reg ==1)
+		{
+		   $('#myModalnew').modal();
+		}
+		//console.log(reg);
+		
+$('#w3').authchoice();
+jQuery('#login-form').yiiActiveForm([{"id":"loginform-username","name":"username","container":".field-loginform-username","input":"#loginform-username","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Username cannot be blank."});}},{"id":"loginform-password","name":"password","container":".field-loginform-password","input":"#loginform-password","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Password cannot be blank."});}}], []);
+jQuery('#request-password-reset-form').yiiActiveForm([{"id":"passwordresetrequestform-email","name":"email","container":".field-passwordresetrequestform-email","input":"#passwordresetrequestform-email","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {value = yii.validation.trim($form, attribute, []);yii.validation.required(value, messages, {"message":"Email cannot be blank."});yii.validation.email(value, messages, {"pattern":/^[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$/,"fullPattern":/^[^@]*<[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?>$/,"allowName":false,"message":"Email is not a valid email address.","enableIDN":false,"skipOnEmpty":1});}}], []);
+});</script></body>
+</html>
